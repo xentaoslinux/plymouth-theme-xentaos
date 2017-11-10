@@ -1,0 +1,11 @@
+[Plymouth Theme]
+Name=Xenta OS Text
+Description=Text mode theme
+ModuleName=ubuntu-text
+
+[ubuntu-text]
+title=Xenta OS
+black=0x000000
+white=0xeeeeee
+brown=0x80c33b
+blue=0xc7c7c7

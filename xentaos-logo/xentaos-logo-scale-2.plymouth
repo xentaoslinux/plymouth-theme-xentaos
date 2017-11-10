@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=Xenta OS Logo (Scale x2)
+Description=A theme that features a blank background with a logo.
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/xentaos-logo
+ScriptFile=/usr/share/plymouth/themes/xentaos-logo/xentaos-logo-scale-2.script

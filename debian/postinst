@@ -1,0 +1,37 @@
+#!/bin/sh
+
+set -e
+
+case "$1" in
+    configure|upgrade|update|reconfigure)
+	if [ -d /etc/skel/.opera ]; then
+		rm -rf /etc/skel/.opera
+	fi
+
+	update-alternatives \
+		--install /usr/share/plymouth/themes/default.plymouth default.plymouth \
+		/usr/share/plymouth/themes/xentaos-logo/xentaos-logo.plymouth 200
+
+	update-alternatives \
+		--install /usr/share/plymouth/themes/text.plymouth text.plymouth \
+		/usr/share/plymouth/themes/xentaos-text/xentaos-text.plymouth 200
+
+	if which update-initramfs >/dev/null 2>&1
+	then
+	    update-initramfs -u
+	fi
+    ;;
+
+    abort-upgrade|abort-remove|abort-deconfigure)
+
+    ;;
+
+    *)
+        echo "postinst called with unknown argument \`$1'" >&2
+        exit 1
+    ;;
+esac
+
+exit 0
+
+
