@@ -10,5 +10,6 @@ Vcs-Browser: https://github.com/xentaos/plymouth-theme-xentaos.git
 Package: plymouth-theme-xentaos
 Architecture: all
 Depends: xentasystem
-Description: Default Plymouth Theme Xenta OS.
- Plymouth Default used in Xenta OS. Logo and Text Themes.
+Description: Paket Bawaan Theme Plymoth.
+ Paket Bawaan Theme Plymoth untuk Xenta OS
+ Splash Boot Logo and Text Theme.
