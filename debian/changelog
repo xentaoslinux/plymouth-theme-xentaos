@@ -1,9 +1,14 @@
+plymouth-theme-xentaos (1.3.5) batik; urgency=medium
+
+  * Perbaikan warna dot Xenta Theme Text
+
+ -- Dindin Hernawan (Xenta OS) <dindin_hernawan@yahoo.com>  Tue, 12 Feb 2019 00:14:41 +0700
+
 plymouth-theme-xentaos (1.3.4) batik; urgency=medium
 
   * Pembaharuan berkas debian
 
  -- Dindin Hernawan (Xenta OS) <dindin_hernawan@yahoo.com>  Mon, 11 Feb 2019 18:59:26 +0700
-
 
 plymouth-theme-xentaos (1.3.2) arok; urgency=medium
 
